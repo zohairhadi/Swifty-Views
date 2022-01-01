@@ -7,7 +7,6 @@ Swifty-Views
 )](https://developer.apple.com/swift)
 [![License](http://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat
 )](http://mit-license.org)
-)](https://github.com/dekatotoro/SlideMenuControllerSwift/issues?state=open)
 
 
 
