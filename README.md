@@ -9,7 +9,6 @@ Swifty-Views
 )](http://mit-license.org)
 [![Issues](https://img.shields.io/github/issues/dekatotoro/SlideMenuControllerSwift.svg?style=flat
 )](https://github.com/dekatotoro/SlideMenuControllerSwift/issues?state=open)
-[![Downloads](https://img.shields.io/cocoapods/dt/SlideMenuControllerSwift.svg)](https://cocoapods.org/pods/SlideMenuControllerSwift)
 
 
 
