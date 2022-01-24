@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66014BFB279ED9C7008C1696 /* RoundSquareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66014BFA279ED9C7008C1696 /* RoundSquareButton.swift */; };
 		6612B67926EF362B00427BE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6612B67826EF362B00427BE0 /* AppDelegate.swift */; };
 		6612B67B26EF362B00427BE0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6612B67A26EF362B00427BE0 /* SceneDelegate.swift */; };
 		6612B67D26EF362B00427BE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6612B67C26EF362B00427BE0 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		66014BFA279ED9C7008C1696 /* RoundSquareButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundSquareButton.swift; sourceTree = "<group>"; };
 		6612B67526EF362B00427BE0 /* Swifty-Views.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swifty-Views.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6612B67826EF362B00427BE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6612B67A26EF362B00427BE0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				6612B6A926EF364100427BE0 /* RoundRectButton.swift */,
+				66014BFA279ED9C7008C1696 /* RoundSquareButton.swift */,
 			);
 			path = Buttons;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 				6612B67D26EF362B00427BE0 /* ViewController.swift in Sources */,
 				6612B67926EF362B00427BE0 /* AppDelegate.swift in Sources */,
 				6612B6AA26EF364100427BE0 /* RoundRectButton.swift in Sources */,
+				66014BFB279ED9C7008C1696 /* RoundSquareButton.swift in Sources */,
 				6612B67B26EF362B00427BE0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
