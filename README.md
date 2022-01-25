@@ -27,8 +27,12 @@ Requires Swift5.0 and iOS 12.0.
 
 ## Features
 
+### Buttons
 - Highly customizable
 - Complete example
+
+### Forms
+Take a look at the following repo for forms: https://github.com/neoneye/SwiftyFORM
 
 ## Contributing
 
