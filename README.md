@@ -1,47 +1,56 @@
-# Swifty-Views
+# SwiftyViews
 
-[![Platform](http://img.shields.io/badge/platform-iOS-blue.svg?style=flat)](https://developer.apple.com/iphone/index.action)
-[![Language](http://img.shields.io/badge/language-Swift-brightgreen.svg?style=flat)](https://developer.apple.com/swift)
-[![License](http://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat)](http://mit-license.org)
-
-iOS Views for all kinds of use.
-
-![sample](Screenshots/2.png)
-
-## Installation
-
-No install procedure exists for this repository at this moment.
-Coming soon.
-
-## Usage
-
-<ol>
-<li>Open ```ViewController.swift```</li>
-<li>See the format of adding the views</li>
-<li>Copy and paste the desired view from the ./Models folder into your project</li>
-</ol>
-
-## Requirements
-
-Requires Swift5.0 and iOS 12.0.
+SwiftyViews is a SwiftUI-based project that demonstrates the creation and usage of custom buttons with rounded rectangles and squares. This project serves as an example of how to transition from UIKit to SwiftUI, showcasing custom-styled buttons with various properties.
 
 ## Features
 
-### Buttons
-- Highly customizable
-- Complete example
+- **RoundRectButtonView**: A customizable rounded rectangle button with options for color, title color, border color, border width, title string, font size, and an optional image.
+- **RoundSquareButtonView**: A customizable rounded square button with options for color, title color, border color, border width, font size, and an image.
 
-### Forms
-Take a look at the following repo for forms: https://github.com/neoneye/SwiftyFORM
+## Screenshots
 
-## Contributing
+<img width="443" alt="Screenshot 2024-07-09 at 3 10 19 PM" src="https://github.com/saqlainjamil5/swifty-View/assets/80804975/53138d85-d4c7-4146-933e-29828e5d989d">
 
-Forks, patches and other feedback are welcome.
 
-## Creator
+## Requirements
 
-[Syed Zohair](https://github.com/zohairhadi)
+- iOS 14.0+
+- Xcode 12.0+
+- Swift 5.0+
 
-## License
+## Installation
 
-SwiftyViews is available under the MIT license. See the [LICENSE](./LICENSE) file for more info.
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/saqlainjamil5/SwiftyViews.git
+    ```
+2. Open the project in Xcode:
+    ```bash
+    cd SwiftyViews
+    open SwiftyViews.xcodeproj
+    ```
+3. Build and run the project on your preferred simulator or device.
+
+## Usage
+
+### RoundRectButtonView
+
+To use `RoundRectButtonView`, you can customize the button by providing the desired properties:
+
+```swift
+RoundRectButtonView(
+    color: Color(red: 0.941, green: 0.498, blue: 0.353),
+    titleColor: .white,
+    borderColor: Color(red: 0.925, green: 0.235, blue: 0.102),
+    borderWidth: 2,
+    title: "Hello",
+    size: 20
+)
+.frame(height: 60)
+.padding(.horizontal, 60)
+```
+### Contributing
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+
+
