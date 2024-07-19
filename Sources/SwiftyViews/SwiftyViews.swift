@@ -2,9 +2,9 @@
 // https://docs.swift.org/swift-book
 import UIKit
 
-class RoundRectButton: UIButton {
+public class RoundRectButton: UIButton {
 
-	required init(color: UIColor, titleColor: UIColor, borderColor: UIColor, borderWidth: CGFloat, titleString : String, size: CGFloat) {
+	public required init(color: UIColor, titleColor: UIColor, borderColor: UIColor, borderWidth: CGFloat, titleString : String, size: CGFloat) {
 		super.init(frame: .zero)
 		translatesAutoresizingMaskIntoConstraints = false
 		self.layer.cornerRadius = 10
@@ -17,7 +17,7 @@ class RoundRectButton: UIButton {
 		self.layer.borderColor = borderColor.cgColor
 	}
 
-	required init(color: UIColor, titleColor: UIColor, borderColor: UIColor, borderWidth: CGFloat, titleString : String, size: CGFloat, img: UIImage) {
+	public required init(color: UIColor, titleColor: UIColor, borderColor: UIColor, borderWidth: CGFloat, titleString : String, size: CGFloat, img: UIImage) {
 		super.init(frame: .zero)
 		translatesAutoresizingMaskIntoConstraints = false
 		self.layer.cornerRadius = 10

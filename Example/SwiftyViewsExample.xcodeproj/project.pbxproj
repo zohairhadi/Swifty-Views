@@ -13,6 +13,7 @@
 		8A8714942C4A87A3008BD660 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A8714922C4A87A3008BD660 /* Main.storyboard */; };
 		8A8714962C4A87A5008BD660 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A8714952C4A87A5008BD660 /* Assets.xcassets */; };
 		8A8714992C4A87A5008BD660 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A8714972C4A87A5008BD660 /* LaunchScreen.storyboard */; };
+		8A8714A22C4A8A1F008BD660 /* SwiftyViews in Frameworks */ = {isa = PBXBuildFile; productRef = 8A8714A12C4A8A1F008BD660 /* SwiftyViews */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A8714A22C4A8A1F008BD660 /* SwiftyViews in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = SwiftyViewsExample;
+			packageProductDependencies = (
+				8A8714A12C4A8A1F008BD660 /* SwiftyViews */,
+			);
 			productName = SwiftyViewsExample;
 			productReference = 8A8714892C4A87A3008BD660 /* SwiftyViewsExample.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = 8A8714802C4A87A2008BD660;
+			packageReferences = (
+				8A8714A02C4A8A1F008BD660 /* XCRemoteSwiftPackageReference "Swifty-Views" */,
+			);
 			productRefGroup = 8A87148A2C4A87A3008BD660 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -363,6 +371,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8A8714A02C4A8A1F008BD660 /* XCRemoteSwiftPackageReference "Swifty-Views" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/zohairhadi/Swifty-Views";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8A8714A12C4A8A1F008BD660 /* SwiftyViews */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8A8714A02C4A8A1F008BD660 /* XCRemoteSwiftPackageReference "Swifty-Views" */;
+			productName = SwiftyViews;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8A8714812C4A87A2008BD660 /* Project object */;
 }

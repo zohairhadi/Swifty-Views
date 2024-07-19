@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "swifty-views",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/zohairhadi/Swifty-Views",
+      "state" : {
+        "branch" : "main",
+        "revision" : "13b41aa69ba33f7d532af33eff5acadbd5c4fd69"
+      }
+    }
+  ],
+  "version" : 2
+}
