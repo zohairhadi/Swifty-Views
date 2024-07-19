@@ -4,21 +4,21 @@
 import PackageDescription
 
 let package = Package(
-    name: "SwiftyViews",
+    name: "Swifty-Views",
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "SwiftyViews",
-            targets: ["SwiftyViews"]),
+            name: "Swifty-Views",
+            targets: ["Swifty-Views"]),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "SwiftyViews",
+            name: "Swifty-Views",
             path: "Sources"),
         .testTarget(
-            name: "SwiftyViewsTests",
-            dependencies: ["SwiftyViews"]),
+            name: "Swifty-ViewsTests",
+            dependencies: ["Swifty-Views"]),
     ]
 )
