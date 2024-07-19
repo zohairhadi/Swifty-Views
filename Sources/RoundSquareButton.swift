@@ -9,7 +9,7 @@ import UIKit
 
 public class RoundSquareButton: UIButton {
 
-    required init(color: UIColor, titleColor: UIColor, borderColor: UIColor, borderWidth: CGFloat, size: CGFloat, img: UIImage) {
+    public required init(color: UIColor, titleColor: UIColor, borderColor: UIColor, borderWidth: CGFloat, size: CGFloat, img: UIImage) {
         super.init(frame: CGRect(x: 0, y: 0, width: 70, height: 70))
         translatesAutoresizingMaskIntoConstraints = false
         self.layer.cornerRadius = 10
@@ -21,7 +21,7 @@ public class RoundSquareButton: UIButton {
         self.layer.borderColor = borderColor.cgColor
     }
 
-    required init?(coder aDecoder: NSCoder) {
+    public required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
 }
