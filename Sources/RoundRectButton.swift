@@ -7,7 +7,7 @@
 
 import UIKit
 
-class RoundRectButton: UIButton {
+public class RoundRectButton: UIButton {
 
     required init(color: UIColor, titleColor: UIColor, borderColor: UIColor, borderWidth: CGFloat, titleString : String, size: CGFloat) {
         super.init(frame: .zero)

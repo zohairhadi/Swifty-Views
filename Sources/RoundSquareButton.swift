@@ -7,7 +7,7 @@
 
 import UIKit
 
-class RoundSquareButton: UIButton {
+public class RoundSquareButton: UIButton {
 
     required init(color: UIColor, titleColor: UIColor, borderColor: UIColor, borderWidth: CGFloat, size: CGFloat, img: UIImage) {
         super.init(frame: CGRect(x: 0, y: 0, width: 70, height: 70))
