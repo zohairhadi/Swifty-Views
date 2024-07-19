@@ -4,11 +4,11 @@
 import PackageDescription
 
 let package = Package(
-    name: "Swifty-Views",
+    name: "SwiftyViews",
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "Swifty-Views",
+            name: "SwiftyViews",
             targets: ["Swifty-Views"]),
     ],
     targets: [
